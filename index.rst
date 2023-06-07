@@ -1,1 +1,3 @@
+HealthCare Vital Record System
 
+A patient's health history, including medical diagnoses, treatments, prescriptions, allergies, and results of laboratory tests, is stored in a digital database called the healthcare vital record system. This technology allows nurses to evaluate a patient's medical records and add new information as necessary. For nurses to deliver high-quality care, it is essential that they have accurate and current information about their patients. Additionally, it helps medical professionals to monitor patients' development throughout time and spot any prospective health difficulties or problems that need more attention.
