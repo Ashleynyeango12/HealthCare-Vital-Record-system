@@ -1,4 +1,4 @@
-HealthCare Vital Record System
+HealthCare Vital Record System.
 
 PROBLEM STATEMENT
           Communication between healthcare facilities, both internally and externally, and even with other stakeholders, remains difficult. This result of poor communication is frequently brought on by aging technology, silos between department, and other problems. Even the quality of patient treatment has been connected to poor internal communication. For instance imagine having to sort out through tens of thousands of data points or hundreds of pages at a time of test data to get the important information  since most patient’s data are recorded on paperwork. For hospital staff members and managers, physicians, and public health officials, these circumstances frequently occur,where patient’s data are needed which most at times the information are lost. Hence leading to poor communication between staff members,  and poor management of patient’s data
