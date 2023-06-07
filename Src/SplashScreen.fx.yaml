@@ -1,0 +1,62 @@
+SplashScreen As screen:
+    BackgroundImage: =SplashScreen_1
+    Fill: |
+        =Color.WhiteTrueTrue
+    ImagePosition: =ImagePosition.Fill
+
+    "Icon1 As icon.'3DPrinting'":
+        Color: =RGBA(0, 0, 0, 1)
+        DisplayMode: =DisplayMode.View
+        Icon: =Icon.EmojiSmile
+        X: =286
+        Y: =178
+        ZIndex: =1
+
+    Label1 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =30
+        Text: ="HealthCare System"
+        Width: =560
+        X: =50
+        Y: =272
+        ZIndex: =2
+
+    Label2 As label:
+        Align: =Align.Center
+        Height: =70
+        Size: =21
+        Text: ="Your Health, Our Priority"
+        Width: =560
+        X: =50
+        Y: =342
+        ZIndex: =3
+
+    Label3 As label:
+        Align: =Align.Center
+        Height: =70
+        Size: =19
+        Text: ="Cameroonian E-Doctor App"
+        Width: =560
+        X: =38
+        Y: =724
+        ZIndex: =4
+
+    Timer4 As timer:
+        AutoPause: =false
+        AutoStart: =true
+        DisplayMode: =DisplayMode.View
+        Duration: =3000
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =67
+        OnTimerEnd: |-
+            =Navigate(WelcomeScreen, ScreenTransition.Fade)
+            //moves to the next screen
+            
+             
+        Text: =hj  qwdhb
+        Width: =50
+        Y: =64
+        ZIndex: =5
+

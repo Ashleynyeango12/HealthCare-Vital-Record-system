@@ -1,0 +1,11 @@
+App As appinfo:
+    BackEnabled: =false
+    StartScreen: =Navigate(PatientViewScreen, ScreenTransition.Fade)
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+

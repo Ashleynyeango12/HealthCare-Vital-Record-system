@@ -1,0 +1,71 @@
+WelcomeScreen As screen:
+    Fill: =RGBA(214, 223, 238, 1)
+
+    Button1 As button:
+        Fill: =RGBA(0, 134, 208, 1)
+        Height: =70
+        OnSelect: |-
+            =Navigate(LoginScreen, ScreenTransition.Fade)
+            //moves to the login screen
+        Size: =24
+        Text: ="Nurse"
+        Width: =280
+        X: =25
+        Y: =829
+        ZIndex: =1
+
+    Button2 As button:
+        Fill: =RGBA(0, 134, 208, 1)
+        Height: =70
+        OnSelect: |-
+            =Navigate(PatientViewScreen, ScreenTransition.Fade)
+            //moves to the patientview screen
+        Size: =24
+        Text: ="Patient"
+        Width: =280
+        X: =336
+        Y: =829
+        ZIndex: =2
+
+    Label7 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =26
+        Text: ="Wecome To"
+        Width: =560
+        X: =25
+        Y: =81
+        ZIndex: =3
+
+    Label8 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =35
+        Text: ="HealthCare System"
+        Width: =560
+        X: =42
+        Y: =151
+        ZIndex: =4
+
+    Image1 As image:
+        Height: =458
+        Image: ='patient-with-crutches-talking-doctor'
+        Width: =458
+        X: =92
+        Y: =284
+        ZIndex: =5
+
+    Button4 As button:
+        DisabledFill: =RGBA(255, 0, 0, 1)
+        Fill: =RGBA(172, 62, 11, 1)
+        Height: =70
+        OnSelect: =Exit()
+        Size: =24
+        Text: ="Exit "
+        Width: =155
+        X: =10
+        Y: =1035
+        ZIndex: =6
+

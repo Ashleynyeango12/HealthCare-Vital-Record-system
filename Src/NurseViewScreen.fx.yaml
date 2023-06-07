@@ -1,0 +1,151 @@
+NurseViewScreen As screen:
+
+    Gallery1 As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Fill: =RGBA(227, 234, 243, 1)
+        Height: =369
+        Items: ='NURSE INFORMATION'
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =95
+        Y: =326
+        ZIndex: =1
+
+        Label6 As label:
+            Height: =77
+            OnSelect: =Select(Parent)
+            Size: =21
+            Text: =ThisItem.Title
+            Width: =85
+            X: =10
+            ZIndex: =1
+
+        Label12 As label:
+            Height: =70
+            OnSelect: =Select(Parent)
+            Size: =21
+            Text: =ThisItem.'Full Name'
+            Width: =135
+            X: =110
+            ZIndex: =2
+
+        Label14 As label:
+            Height: =91
+            OnSelect: =Select(Parent)
+            Size: =21
+            Text: =ThisItem.Date
+            Width: =115
+            X: =245
+            ZIndex: =4
+
+        Label15 As label:
+            Height: =91
+            OnSelect: =Select(Parent)
+            Size: =21
+            Text: =ThisItem.Address
+            Width: =148
+            X: =360
+            ZIndex: =5
+
+        Icon5 As icon.View:
+            Height: =42
+            Icon: =Icon.View
+            OnSelect: =Navigate(NurseEditScreen); ViewForm(Form1); //Navigates to view details
+            Width: =32
+            X: =508
+            ZIndex: =6
+
+        Icon8 As icon.Edit:
+            Height: =42
+            Icon: =Icon.Edit
+            OnSelect: =Navigate(NurseEditScreen); EditForm(Form1);//Navigate to an edit form(details)
+            Width: =34
+            X: =549
+            ZIndex: =7
+
+        Icon9 As icon.Trash:
+            Color: =RGBA(184, 0, 0, 1)
+            Height: =42
+            Icon: =Icon.Trash
+            OnSelect: =Remove('NURSE INFORMATION', ThisItem) //deletes this item from database
+            Width: =37
+            X: =592
+            ZIndex: =8
+
+    Label16 As label:
+        Fill: =RGBA(153, 207, 236, 1)
+        Height: =69
+        Size: =21
+        Text: ="Nurse ID"
+        Width: =116
+        Y: =256
+        ZIndex: =2
+
+    Label17 As label:
+        Fill: =RGBA(153, 207, 236, 1)
+        Height: =70
+        Size: =21
+        Text: ="Full Name"
+        Width: =133
+        X: =116
+        Y: =256
+        ZIndex: =3
+
+    Label18 As label:
+        Fill: =RGBA(153, 207, 236, 1)
+        Height: =70
+        Size: =21
+        Text: ="Date"
+        Width: =116
+        X: =249
+        Y: =256
+        ZIndex: =4
+
+    Label19 As label:
+        Fill: =RGBA(153, 207, 236, 1)
+        Height: =70
+        Size: =21
+        Text: ="Address"
+        Width: =138
+        X: =365
+        Y: =256
+        ZIndex: =5
+
+    Rectangle1 As rectangle:
+        Height: =127
+        Width: =640
+        ZIndex: =6
+
+    Label20 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =21
+        Text: ="NURSE INFORMATION"
+        Width: =415
+        X: =83
+        Y: =31
+        ZIndex: =7
+
+    Icon7 As icon.Add:
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(56, 96, 178, 1)
+        Height: =127
+        Icon: =Icon.Add
+        OnSelect: =Navigate(NurseEditScreen); NewForm(Form1); //Navigate to a new form
+        PaddingBottom: =30
+        PaddingTop: =50
+        Width: =133
+        X: =503
+        ZIndex: =8
+
+    Icon17 As icon.BackArrow:
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(56, 96, 178, 1)
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate(LoginScreen) //Navigates to login screen
+        X: =14
+        Y: =31
+        ZIndex: =9
+
