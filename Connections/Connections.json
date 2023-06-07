@@ -1,0 +1,48 @@
+{
+  "3fce421a-9eec-44de-b281-2353628fdf32": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3312/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://5kw1kd.sharepoint.com/sites/HealthCareApp": {
+        "dataSources": {
+          "NURSE INFORMATION": {
+            "tableName": "2695b841-f8e3-4ef2-a292-aa17e56fbfd1"
+          },
+          "Patient Database": {
+            "tableName": "e4dc15a1-5c7f-42cb-b86d-a2c20ae7b327"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "NURSE INFORMATION",
+      "Patient Database"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "3fce421a-9eec-44de-b281-2353628fdf32"
+  },
+  "b6b8a11f-8e91-4e85-b8de-b00695af7061": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Users",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3312/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Users"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "b6b8a11f-8e91-4e85-b8de-b00695af7061"
+  }
+}
